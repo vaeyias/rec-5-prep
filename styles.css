@@ -11,11 +11,10 @@ h1 {
     height: 200px;
 }
 
-img {
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
-}
+/* 
+TODO 3: Add an img selector to make all images a consistent 200x200 pixel size.
+The images should also have aesthetic rounded corners.
+*/
 
 
 .posts {
@@ -42,9 +41,10 @@ p {
     margin-bottom: 10px;
 }
 
-.pretty-button:hover {
-    background-color: #e86363; /* Darker shade on hover */
-}
+/* 
+TODO 4: Change the color of Post button on hover as a visual cue to the user 
+Ensure that the text is still readable after the color has been changed.
+*/
 
 .navbar {
     display: flex;
