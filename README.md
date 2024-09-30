@@ -7,7 +7,7 @@ Run `npm install` to install dependencies.
 
 ## Running Locally
 
-Run `npm start` and navigate to (http://127.0.0.1:8080)[http://127.0.0.1:8080] to view the page.
+Run `npm start` and navigate to [http://127.0.0.1:8080](http://127.0.0.1:8080) to view the page.
 
 
 ## Complete TODOs 1, 2, 3, & 4
