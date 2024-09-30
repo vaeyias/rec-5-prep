@@ -18,4 +18,6 @@ You should not need to modify any other code.
 
 The TODOs will require you to have knowledge of flexbox, CSS selectors, and basic HTML elements such as `<div>`, `<img>`, and `<p>`. 
 
-Your final page should look something like this with the addition that when you hover over the Post button, the button changes color: ![Final Page](./FinalImageGrid.png)
+Your final page should look something like this with the addition that when you hover over the Post button, the button changes color: 
+
+![Final Page](./FinalImageGrid.png)
