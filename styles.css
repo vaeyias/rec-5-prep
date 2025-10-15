@@ -6,15 +6,21 @@ h1 {
 .main-container {
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 30px;
     width: 650px;
     height: 200px;
 }
 
-/* 
+/*
 TODO 3: Add an img selector to make all images a consistent 200x200 pixel size.
 The images should also have aesthetic rounded corners.
 */
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
 
 
 .posts {
@@ -41,11 +47,27 @@ p {
     margin-bottom: 10px;
 }
 
-/* 
-TODO 4: Change the color of Post button on hover as a visual cue to the user 
+/*
+TODO 4: Change the color of Post button on hover as a visual cue to the user
 Ensure that the text is still readable after the color has been changed.
 */
 
+
+.pretty-button:hover{
+    background-color: #77b6e9; /* Primary color */
+    color: white; /* Text color */
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px; /* Top/bottom and left/right padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
 .navbar {
     display: flex;
     justify-content: space-between; /* Space between brand and links */
